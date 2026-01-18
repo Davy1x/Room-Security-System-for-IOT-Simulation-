@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zeus Door Security</title>
+  <link rel="stylesheet" href="all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+  
+  <audio id="granted" src="./_sound_fx_/zeus_access_granted.mp3" preload="auto"></audio>
+  <audio id="bip" src="./_sound_fx_/zeus_bip.mp3" preload="auto"></audio>
+  
+  <aside id="security-alert">
+    <span>
+      <var><i class="fas fa-triangle-exclamation"></i></var>
+    </span>
+    <p>Error</p>
+    <div>05:00:00</div>
+  </aside>
+  <div id="security-alert-overlay"></div>
+  
+  <main id="main">
+    <header id="main-header">
+      <div id="main-header-functions">
+        
+        <div id="toggle-frame">
+          <span></span>
+          <p>OFF</p>
+        </div>
+        
+        <div id="status"><i class="fas fa-lock"></i>Locked</div>
+        
+      </div>
+      <div id="main-header-text">
+        <span>Zeus Security System</span>
+        <p>Enter 10 digit zeus passcode</p>
+      </div>
+      <div id="main-header-indicators">
+        <div>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+        <span><p></p></span>
+      </div>
+    </header>
+    
+    <main id="main-main">
+      <div id="main-main-key-container">
+        <span>
+          <p class="btns">1</p>
+          <p class="btns">2</p>
+          <p class="btns">3</p>
+        </span>
+        
+        <span>
+          <p class="btns">4</p>
+          <p class="btns">5</p>
+          <p class="btns">6</p>
+        </span>
+        
+        <span>
+          <p class="btns">7</p>
+          <p class="btns">8</p>
+          <p class="btns">9</p>
+        </span>
+        
+        <span>
+          <p class="btns"><i class="fas fa-delete-left"></i></p>
+          <p class="btns">0</p>
+          <p class="btns" ><i class="fas fa-unlock-keyhole"></i></p>
+        </span>
+      </div>
+    </main>
+    
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>
